@@ -3,7 +3,7 @@ $(function () {
   //ローディング処理
   $(document).ready(function () {
     $("#fakeloader").fakeLoader({
-      timeToHide: 2800,
+      timeToHide: 1600,
       spinner: "spinner3",
       bgColor: "#f5f5f5"
     });

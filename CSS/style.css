@@ -12,7 +12,7 @@ html{
 
 body{
   font-size: 1.6rem;
-  font-family: 'Noto Sans JP','Roboto', sans-serif;
+  font-family: 'Noto Sans JP','Lato', sans-serif;
   color: #333;
   background: #f5f5f5;
   -webkit-font-smoothing:antialiased;
@@ -129,7 +129,7 @@ header
 .header .title{
   font-size: 36px;
   color: #333;
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Lato', sans-serif;
   font-weight: bold;
 }
 
@@ -140,12 +140,12 @@ header
 
 
 .sub-title{
-  color: #777777;
-  font-size: 12px;
+  color: #777;
+  font-size: 14px;
   text-align: center;
   display: block;
-  margin-top: 10px;
-  font-family: 'Roboto', sans-serif;
+  margin-top: 5px;
+  font-family: 'Lato', sans-serif;
 }
 
 
@@ -345,6 +345,11 @@ header
 /*---------------------------------------------
 main
  ----------------------------------------------*/
+
+.exif a{
+  color: #fff;
+}
+
 .item-list{
   display: block;
 }
@@ -455,27 +460,3 @@ footer{
 
 
 }
-
-
-
-
-.border-box{
-  padding: bottom;
-  max-width: 120px;
-
-
-  display: flex;
-  flex-wrap: wrap;
-  position: relative;
-  margin: 20px 0 20px 0;
-
-
-  -webkit-font-smoothing:antialiased;
-  -moz-osx-font-smoothing: grayscale;
-
-
-}
-
-
-
-
